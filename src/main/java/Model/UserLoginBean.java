@@ -5,10 +5,9 @@ public class UserLoginBean {
     String password;
     int partyId;
 
-    public UserLoginBean(String userLoginId, String password, int partyId) {
+    public UserLoginBean(String userLoginId, String password) {
         this.userLoginId = userLoginId;
         this.password = password;
-        this.partyId = partyId;
     }
 
     public UserLoginBean() {
@@ -18,7 +17,7 @@ public class UserLoginBean {
 
         return userLoginId;
     }
-    public void setUserLoginId(String userId) {
+    public void setUserLoginId(String userLoginId) {
 
         this.userLoginId = userLoginId;
     }
